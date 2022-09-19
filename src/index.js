@@ -1,6 +1,6 @@
 import React from 'react';
 import  ReactDOM  from 'react-dom';
-import App from './pages/app';
+import UserInfo from './components/Users';
 
 const root = document.getElementById('root')
-ReactDOM.render(<App/>, root)
+ReactDOM.render(<UserInfo/>, root)
